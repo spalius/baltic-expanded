@@ -76,4 +76,48 @@ pagan = {
 
         can_have_secondary_religion = yes     
     }
+
+    allowed_conversion = {
+            catholic
+            orthodox
+            protestant
+            sunni
+        }
+		
+        on_convert = {
+            change_religion = catholic
+            add_prestige = 25
+            add_country_modifier = {
+                name = "global_unrest = 1"
+                duration = 3650
+            }
+        }
+
+        on_convert = {
+            change_religion = orthodox
+            add_prestige = 25
+            add_country_modifier = {
+                name = "global_unrest = 1"
+                duration = 3650
+            }
+        }
+
+        on_convert = {
+            change_religion = sunni
+            add_prestige = 25
+            add_country_modifier = {
+                name = "global_unrest = 1"
+                duration = 3650
+            }
+        }
+
+        on_convert = {
+            change_religion = protestant
+            add_prestige = 25
+            add_country_modifier = {
+                name = "global_unrest = 1"
+                duration = 3650
+            }
+        }
+        
 }

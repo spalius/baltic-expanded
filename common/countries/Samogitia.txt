@@ -1,0 +1,74 @@
+#Samogitia
+
+graphical_culture = easterngfx
+
+color = { 156 110 92 }
+
+revolutionary_colors = { 9  0  5 } #Samogitia
+
+historical_score = 150
+
+historical_idea_groups = {
+	defensive_ideas
+	quality_ideas
+	diplomatic_ideas
+	administrative_ideas
+	plutocratic_ideas
+	humanist_ideas
+	aristocracy_ideas	
+	quantity_ideas
+}
+
+historical_units = {
+	bardiche_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	hungarian_hussar
+	polish_musketeer
+	polish_hussar
+	polish_tercio
+	polish_winged_hussar
+	russian_lancer
+	russian_cuirassier
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	russian_mass
+}
+
+monarch_names = { # possibly lithuanized, very lacking due to the fact that very little yotvingian names have survived in literature
+	"Skalmantas #0" = 40
+	"Komantas #0" = 20
+	"Gomants #0" = 20
+	"Skomantas #0" = 20
+	"Kantigirdas #0" = 20
+	"Gedėtas #0" = 20
+	"Skurda #0" = 20
+	"Gedetes #0" = 15
+	"Gedetes #0" = 10
+	"Galms #0" = 10
+
+	"Agn� #0" = -1
+	"Morta #0" = -1
+	"Viltaut� #0" = -1
+}
+
+leader_names = {
+	Skalmantas
+	Komantas
+	Aleksandras
+	Skurda
+	Gedėtas
+	Skomantas
+	Gomants
+	Galms
+}
+
+ship_names = {
+	Dainawa
+	Nemunas
+	Gentaras
+	Starkas
+	Gerwe
+}

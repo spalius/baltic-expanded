@@ -1,0 +1,19 @@
+#Baltic
+LIT = "countries/Lithuania.txt"
+SMX = "countries/Samogitia.txt"
+YOT = "countries/Yotvingia.txt"
+CUR = "countries/Curonia.txt"
+SEM = "countries/Semigallia.txt"
+SKL = "countries/Skalvia.txt"
+OPR = "countries/Pruteni.txt" # Latin version for Old Prussia
+XMB = "countries/Sambia.txt" # possibly not to be used
+GLX = "countries/Galindia.txt"
+NDR = "countries/Nadruvia.txt"
+WRM = "countries/Warmia.txt"
+BRX = "countries/Bartia.txt"
+NTX = "countries/Natangia.txt" 
+PMS = "countries/Pomesania.txt"
+PGT = "countries/Pogesania.txt"
+SEL = "countries/Selonia.txt"
+LAT = "countries/Latvia.txt"
+IZH = "countries/Izhoria.txt"
