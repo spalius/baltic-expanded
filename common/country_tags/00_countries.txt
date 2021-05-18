@@ -1,5 +1,4 @@
 #Baltic
-LIT = "countries/Lithuania.txt"
 SMX = "countries/Samogitia.txt"
 YOT = "countries/Yotvingia.txt"
 CUR = "countries/Curonia.txt"
