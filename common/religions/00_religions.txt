@@ -1,0 +1,79 @@
+pagan = {
+    romuva = {
+		color = { 255 191 0 }
+		icon = 11
+
+        personal_deity = yes
+
+        religious_reforms = yes
+
+        can_have_secondary_religion = yes
+
+		country = {
+			no_religion_penalty = yes
+			hostile_attrition = 1
+		}
+		country_as_secondary = {
+			tolerance_heathen = 0.5
+			hostile_attrition = 0.5
+		}
+		province = {
+			local_missionary_strength = 0.04
+		}
+
+        allowed_conversion = {
+            catholic
+            orthodox
+            protestant
+            sunni
+        }
+		
+        on_convert = {
+            change_religion = catholic
+            add_prestige = 25
+            add_country_modifier = {
+                name = "global_unrest = 1"
+                duration = 3650
+            }
+        }
+
+        on_convert = {
+            change_religion = orthodox
+            add_prestige = 25
+            add_country_modifier = {
+                name = "global_unrest = 1"
+                duration = 3650
+            }
+        }
+
+        on_convert = {
+            change_religion = sunni
+            add_prestige = 25
+            add_country_modifier = {
+                name = "global_unrest = 1"
+                duration = 3650
+            }
+        }
+
+        on_convert = {
+            change_religion = protestant
+            add_prestige = 25
+            add_country_modifier = {
+                name = "global_unrest = 1"
+                duration = 3650
+            }
+        }
+        
+	}
+
+    maausk = {
+       	color = { 255 191 0 }
+		icon = 11
+
+        personal_deity = yes
+
+        religious_reforms = yes
+
+        can_have_secondary_religion = yes     
+    }
+}
